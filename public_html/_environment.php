@@ -1,6 +1,6 @@
 <?php
 
-    require_once('../vendor/braintree/braintree-php/lib/Braintree.php');
+    require_once('braintree-php/lib/Braintree.php');
     Braintree_Configuration::environment('sandbox');
     Braintree_Configuration::merchantId('pf2gf49pptqb6dcv');
     Braintree_Configuration::publicKey('nrzghfkjqw3tb3vw');
