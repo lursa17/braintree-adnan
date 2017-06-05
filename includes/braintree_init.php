@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once("../vendor/autoload.php");
+require_once("../lib/autoload.php");
 
 if(file_exists(__DIR__ . "/../.env")) {
     $dotenv = new Dotenv\Dotenv(__DIR__ . "/../");
